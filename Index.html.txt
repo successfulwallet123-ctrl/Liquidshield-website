@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LiquidShield (LSH)</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at center, #0A1F44, #000);
+    color: white;
+    text-align: center;
+}
+
+/* HERO */
+.hero {
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    text-shadow: 0 0 15px #00C2FF;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+/* BUTTONS */
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 14px 28px;
+    background: linear-gradient(45deg, #00C2FF, #007BFF);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #00C2FF;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    transform: scale(1.05);
+}
+
+/* SECTION */
+.section {
+    padding: 60px 20px;
+}
+
+/* CARD STYLE */
+.card {
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    width: 160px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.05);
+    box-shadow: 0 0 10px rgba(0,194,255,0.3);
+}
+
+/* ANIMATION */
+.fade {
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero fade">
+    <h1>🛡️ LiquidShield (LSH)</h1>
+    <p>Protecting Liquidity. Building Trust.</p>
+
+    <div class="buttons">
+        <a href="#">View Chart</a>
+        <a href="#">Join Telegram</a>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<div class="section fade">
+    <h2>About</h2>
+    <p>
+        LiquidShield (LSH) is a decentralized token focused on secure liquidity and transparent growth.
+        Built with locked liquidity and fair structure.
+    </p>
+</div>
+
+<!-- TOKENOMICS -->
+<div class="section fade">
+    <h2>Tokenomics</h2>
+    <div>
+        <div class="card">Supply<br>1B</div>
+        <div class="card">Liquidity<br>25%</div>
+        <div class="card">Max TX<br>1%</div>
+        <div class="card">Max Wallet<br>2%</div>
+    </div>
+</div>
+
+<!-- ROADMAP -->
+<div class="section fade">
+    <h2>Roadmap</h2>
+    <div>
+        <div class="card">Phase 1<br>Launch</div>
+        <div class="card">Phase 2<br>Growth</div>
+        <div class="card">Phase 3<br>Expansion</div>
+        <div class="card">Phase 4<br>Development</div>
+    </div>
+</div>
+
+<!-- HOW TO BUY -->
+<div class="section fade">
+    <h2>How to Buy</h2>
+    <p>
+        1. Open chart<br>
+        2. Connect wallet<br>
+        3. Swap ETH → LSH
+    </p>
+</div>
+
+<!-- COMMUNITY -->
+<div class="section fade">
+    <h2>Community</h2>
+    <div class="buttons">
+        <a href="#">Telegram</a>
+        <a href="#">Twitter</a>
+        <a href="#">Dexscreener</a>
+    </div>
+</div>
+
+</body>
+</html>
